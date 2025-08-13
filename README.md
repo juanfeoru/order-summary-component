@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj?tab=solutions)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-flexbox-and-css-custom-properties-r5516hPEpU)
 - Live Site URL: [Live Site URL](https://juanfeoru.github.io/order-summary-component/)
 
 ---
