@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj?tab=solutions)
-- Live Site URL: [Add live site URL here](https://juanfeoru.github.io/order-summary-component/)
+- Solution URL: [](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj?tab=solutions)
+- Live Site URL: [](https://juanfeoru.github.io/order-summary-component/)
 
 ---
 
