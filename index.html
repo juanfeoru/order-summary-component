@@ -19,42 +19,66 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+
+  <body
+    class="font-[Red_Hat_Display] bg-[var(--blue-100)] bg-[url(./images/pattern-background-mobile.svg)] bg-top bg-no-repeat bg-size-[100vw] min-h-screen flex justify-center items-center overflow-y-hidden m-4 md:bg-[url(./images/pattern-background-desktop.svg)]"
+  >
     <main>
-      <article class="order-summary">
+      <article
+        class="bg-[var(--white)] overflow-hidden rounded-3xl text-center max-w-[28rem] shadow-xl"
+      >
         <header>
           <img
             src="./images/illustration-hero.svg"
             alt=""
-            class="order-summary__image"
+            class="object-cover"
           />
         </header>
 
-        <section class="order-summary__description">
-          <h1 class="order-summary__title">Order Summary</h1>
-          <p class="order-summary__text">
+        <section class="m-8">
+          <h1 class="text-2xl md:text-3xl font-black text-[var(--blue-950)]">
+            Order Summary
+          </h1>
+          <p class="mt-2 text-base text-[var(--gray-600)] font-medium">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
         </section>
 
-        <section class="order-summary__plan">
+        <section
+          class="bg-[var(--blue-50)] py-6 mx-4 md:mx-8 rounded-lg flex gap-4 md:gap-8 items-center justify-center"
+        >
           <img src="./images/icon-music.svg" alt="" />
 
-          <div class="order-summary__plan-details">
-            <h2 class="order-summary__plan-title">Annual Plan</h2>
-            <p class="order-summary__plan-price">$59.99/year</p>
+          <div>
+            <h2 class="font-black text-base text-[var(--blue-950)]">
+              Annual Plan
+            </h2>
+            <p class="text-[var(--gray-600)] font-bold">$59.99/year</p>
           </div>
 
-          <a href="#" class="order-summary__plan-change">Change</a>
+          <a
+            href="#"
+            class="mt-2 text-[var(--blue-700)] text-sm font-extrabold underline hover:no-underline hover:text-[hsl(245,83%,68%)]"
+            >Change</a
+          >
         </section>
 
-        <section class="order-summary__button">
-          <button class="order-summary__button-primary">
+        <section class="pb-12 px-4 md:px-8">
+          <button
+            class="my-8 py-4 w-full rounded-xl block bg-[var(--blue-700)] text-[var(--white)] font-bold shadow-2xl cursor-pointer hover:bg-[hsl(245,83%,68%)] ease-in-out duration-200"
+            type="button"
+          >
             Proceed to Payment
           </button>
-          <a href="#" class="order-summary__cancel">Cancel Order</a>
+          <a
+            href="#"
+            class="text-[var(--gray-600)] font-extrabold hover:text-[var(--blue-950)]"
+            >Cancel Order</a
+          >
         </section>
       </article>
     </main>
